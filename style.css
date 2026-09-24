@@ -188,7 +188,7 @@ img {
   display: flex;
   align-items: center;
   background-color: var(--fg);
-  background-image: url("/assets/images/brian-murphy-inspecting-knee.jpg");
+  background-image: url("assets/images/brian-murphy-inspecting-knee.jpg");
   background-size: cover;
   background-position: center 30%;
 }
