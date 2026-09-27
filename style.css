@@ -188,7 +188,7 @@ img {
   display: flex;
   align-items: center;
   background-color: var(--fg);
-  background-image: url("assets/images/brian-murphy-inspecting-knee.jpg");
+  background-image: url("assets/images/acupuncture.jpg");
   background-size: cover;
   background-position: center 30%;
 }
@@ -283,47 +283,6 @@ img {
 .btn-outline:hover {
   border-color: rgba(255, 255, 255, 0.9);
   color: #fff;
-}
-
-/* ── CREDENTIALS ── */
-.credentials {
-  background: var(--primary);
-  color: #fff;
-}
-
-.credentials-inner {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: var(--space-sm) var(--space-lg);
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--space-sm);
-}
-
-.credentials p {
-  font-size: var(--fs-sm);
-  font-weight: 500;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
-.insurers {
-  display: flex;
-  align-items: center;
-  gap: var(--space-md);
-}
-
-.insurers .label {
-  font-size: var(--fs-xs);
-  opacity: 0.7;
-}
-
-.insurer {
-  font-size: var(--fs-sm);
-  font-weight: 600;
-  letter-spacing: 0.04em;
 }
 
 /* ── SHARED SECTION ── */
@@ -508,36 +467,6 @@ img {
   flex-shrink: 0;
 }
 
-/* ── TESTIMONIAL ── */
-.testimonial {
-  background: var(--fg);
-  padding: var(--space-4xl) var(--space-lg);
-  text-align: center;
-}
-
-.testimonial-inner {
-  max-width: 760px;
-  margin: 0 auto;
-}
-
-.testimonial blockquote {
-  font-family: var(--serif);
-  font-size: var(--fs-quote);
-  font-style: italic;
-  color: #fff;
-  line-height: 1.7;
-  margin: var(--space-lg) 0 var(--space-xl);
-}
-
-.testimonial cite {
-  font-style: normal;
-  font-size: var(--fs-sm);
-  font-weight: 500;
-  letter-spacing: 0.08em;
-  color: rgba(255, 255, 255, 0.45);
-  text-transform: uppercase;
-}
-
 /* ── HOURS & CONTACT ── */
 .info-grid {
   display: grid;
@@ -551,6 +480,10 @@ img {
   font-weight: 500;
   margin-bottom: var(--space-xl);
   color: var(--fg);
+}
+
+.info-grid h3 {
+  margin-block: var(--space-md);
 }
 
 .fees-list {
@@ -689,6 +622,13 @@ img {
 .site-footer__copy {
   font-size: var(--fs-sm);
   color: var(--muted-fg);
+}
+
+.site-footer__inner img {
+  display: block;
+  max-width: 200px;
+  height: auto;
+  margin-top: var(--space-xl);
 }
 
 /* ── RESPONSIVE ── */
